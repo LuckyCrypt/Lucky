@@ -1,0 +1,4 @@
+﻿  дз 2.cpp
+C:\Users\Maksim\source\repos\дз 2\дз 2\дз 2.cpp(12,9): warning C4101: b: неиспользованная локальная переменная
+C:\Users\Maksim\source\repos\дз 2\дз 2\дз 2.cpp(12,12): warning C4101: g: неиспользованная локальная переменная
+  дз 2.vcxproj -> C:\Users\Maksim\source\repos\дз 2\Debug\дз 2.exe

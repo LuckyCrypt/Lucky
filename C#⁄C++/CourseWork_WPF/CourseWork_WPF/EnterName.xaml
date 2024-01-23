@@ -1,0 +1,16 @@
+﻿<Window x:Class="CourseWork_WPF.EnterName"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CourseWork_WPF"
+        mc:Ignorable="d"
+        Title="Название сети" Height="166" Width="248" ResizeMode="NoResize">
+
+    <Grid Width="NaN" Height="NaN"   >
+        <TextBox HorizontalAlignment="Left" Margin="20,37,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120" Text="" x:Name="textBox1"/>
+        <Button Content="Сохранить сеть" HorizontalAlignment="Left" Margin="20,71,0,0" VerticalAlignment="Top" Width="146" x:Name="button1" Click="button1_Click" FontWeight="Bold" Background="#08aebb" Foreground="White"/>
+        <Label Content="Название" HorizontalAlignment="Left" Margin="47,12,0,0" VerticalAlignment="Top" x:Name="label5_Copy1" FontWeight="Bold" Foreground="#08aebb"/>
+
+    </Grid>
+</Window>

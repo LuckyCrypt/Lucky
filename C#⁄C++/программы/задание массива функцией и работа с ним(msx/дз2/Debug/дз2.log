@@ -1,0 +1,4 @@
+﻿  дз2.cpp
+C:\Users\Maksim\Desktop\программы\дз2\дз2\дз2.cpp(34,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+C:\Users\Maksim\Desktop\программы\дз2\дз2\дз2.cpp(36,6): warning C4101: n: неиспользованная локальная переменная
+  дз2.vcxproj -> C:\Users\Maksim\Desktop\программы\дз2\Debug\дз2.exe

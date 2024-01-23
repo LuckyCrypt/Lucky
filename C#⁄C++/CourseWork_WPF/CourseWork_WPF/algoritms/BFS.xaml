@@ -1,0 +1,30 @@
+﻿<Window x:Class="CourseWork_WPF.algoritms.BFS"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CourseWork_WPF.algoritms"
+        xmlns:gmaps="clr-namespace:GMap.NET.WindowsPresentation;assembly=GMap.NET.WindowsPresentation"
+        mc:Ignorable="d"
+        Title="" Height="891" Width="1644" ResizeMode="NoResize">
+    <Grid Height="NaN" Margin="0,0,0,1" Width="NaN" x:Name="maingrid" Background="#add8e6">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="1270*"/>
+        </Grid.ColumnDefinitions>
+        <gmaps:GMapControl x:Name="Gmap" Loaded="gMapControl1_Load" Margin="309,10,10,16"  Height="NaN" Width="NaN"  Grid.Column="1" BorderBrush="#08aebb" BorderThickness="3"/>
+        <GroupBox Header="Обход в Ширину" x:Name="gBox" Margin="9,10,1344,679" Height="NaN" Grid.Column="1" Width="NaN" FontWeight="Bold" Foreground="#08aebb" Background="White" BorderBrush="#08aebb" BorderThickness="3">
+            <GroupBox.BindingGroup>
+                <BindingGroup/>
+            </GroupBox.BindingGroup>
+            <StackPanel Height="132" Margin="10,0,9,0" Width="NaN">
+                <TextBlock>От:</TextBlock>
+                <ComboBox x:Name="fromBox1" />
+                <TextBlock>До:</TextBlock>
+                <ComboBox x:Name="toBox2"/>
+                <Button x:Name="doButton" Margin="0,20" Background="#08aebb" Foreground="White" >Начать</Button>
+            </StackPanel>
+        </GroupBox>
+        <TextBox Grid.Column="1" HorizontalAlignment="Left" Margin="9,200,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="289" Height="316" x:Name="routeBox" BorderBrush="#08aebb" BorderThickness="3"/>
+    </Grid>
+</Window>

@@ -1,0 +1,3 @@
+﻿  дз3.cpp
+C:\Users\Maksim\Desktop\программы\дз3\дз3\дз3.cpp(39,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  дз3.vcxproj -> C:\Users\Maksim\Desktop\программы\дз3\Debug\дз3.exe

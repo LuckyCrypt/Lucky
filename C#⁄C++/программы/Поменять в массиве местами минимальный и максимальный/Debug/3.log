@@ -1,0 +1,4 @@
+﻿  3.cpp
+C:\Users\Maksim\Desktop\программы\3\3.cpp(14,28): warning C4101:  h: неиспользованная локальная переменная
+C:\Users\Maksim\Desktop\программы\3\3.cpp(14,26): warning C4101:  g: неиспользованная локальная переменная
+  3.vcxproj -> C:\Users\Maksim\Desktop\программы\3\Debug\3.exe
